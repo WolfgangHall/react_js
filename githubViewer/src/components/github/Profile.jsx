@@ -5,7 +5,7 @@ class Profile extends Component{
 
     render(){
         return(
-            <div>
+            <div id='profile-section'>
                 <div className="panel panel-default">
                   <div className="panel-heading">
                     <h3 className="panel-title">{this.props.userData.name}</h3>
